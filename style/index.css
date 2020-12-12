@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    width: 80%;
+}
+.side-colum{
+    
+    width: 20% !important;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.row{
+    margin:0px 7.5px;
+}
+.card{
+    border: none;
+    margin: 0px 7.5px;
+}
+.filter_body ul{
+    list-style-type: none;
+}
+.title_filter{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+input[type="checkbox"] {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    user-select:none;
+    cursor:pointer;
+    margin-top: 10px;
+    
+
+}
+input[type="checkbox"] ~ :checked{
+    background-color: blue;
+}
+input[type="checkbox"] + label {
+    display:inline-block;
+    padding-top: 10px;
+
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    user-select: none;
+    cursor:pointer;
+}
+.card-body{
+    width: 212.75px ;
+    height:354.44px ;
+}
+.card-footer{
+    background-color: #fff;;
+}
+.detail{
+    color: #000;
+    
+}
+.card-body:hover{
+    padding-top: 3px;
+    transition: 0.5s;
+    
+}
+.card-body a:hover{
+    text-decoration: none;
+    padding-top: 15px;
+}
+.add_cart{
+    color: #000;
+    padding-left: 10px;
+    font-size: 30px;
+}
+.name_game{
+    margin-top: 5px;
+}
+.card_game{
+    width: 212.75px;
+}
+.all a{
+    color: #000;
+}
+.all a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
